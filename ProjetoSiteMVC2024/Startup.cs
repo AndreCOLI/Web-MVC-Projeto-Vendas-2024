@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProjetoSiteMVC2024.Data;
 
+
 namespace ProjetoSiteMVC2024
 {
     public class Startup
@@ -37,7 +38,8 @@ namespace ProjetoSiteMVC2024
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<ProjetoSiteMVC2024Context>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("ProjetoSiteMVC2024Context")));
+                    options.UseMySql(Configuration.GetConnectionString("ProjetoSiteMVC2024Context"), builder =>
+                    builder.MigrationsAssembly("ProjetoSiteMVC2024")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
