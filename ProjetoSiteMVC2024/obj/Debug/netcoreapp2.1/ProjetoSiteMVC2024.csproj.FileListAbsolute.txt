@@ -33,4 +33,4 @@ C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netc
 C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\ProjetoSiteMVC2024.pdb
 C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\ProjetoSiteMVC2024.genruntimeconfig.cache
 C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\ProjetoSiteMVC2024.csproj.CopyComplete
-C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Index.cshtml.g.cs
+C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\ProjetoSiteMVC2024.csproj.AssemblyReference.cache
