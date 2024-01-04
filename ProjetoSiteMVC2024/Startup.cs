@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProjetoSiteMVC2024.Data;
+using ProjetoSiteMVC2024.Services;
 
 
 namespace ProjetoSiteMVC2024
@@ -42,6 +43,7 @@ namespace ProjetoSiteMVC2024
                     builder.MigrationsAssembly("ProjetoSiteMVC2024")));
 
             services.AddScoped<ServicoPopular>();
+            services.AddScoped<VendedorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
