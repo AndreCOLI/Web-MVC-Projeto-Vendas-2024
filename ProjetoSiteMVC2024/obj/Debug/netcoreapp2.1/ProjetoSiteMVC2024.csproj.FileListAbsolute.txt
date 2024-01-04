@@ -38,3 +38,5 @@ C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netc
 C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Details.cshtml.g.cs
 C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Edit.cshtml.g.cs
 C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Index.cshtml.g.cs
+C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\ProjetoSiteMVC2024.csproj.AssemblyReference.cache
+C:\Users\Andeh\source\repos\ProjetoSiteMVC2024\ProjetoSiteMVC2024\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Index.cshtml.g.cs
