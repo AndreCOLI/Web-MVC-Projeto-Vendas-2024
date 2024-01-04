@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetoSiteMVC2024.Data;
 
 namespace ProjetoSiteMVC2024.Migrations
 {
     [DbContext(typeof(ProjetoSiteMVC2024Context))]
-    partial class ProjetoSiteMVC2024ContextModelSnapshot : ModelSnapshot
+    [Migration("20240104005618_OtherEntities")]
+    partial class OtherEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
