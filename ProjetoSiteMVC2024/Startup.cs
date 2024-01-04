@@ -40,14 +40,17 @@ namespace ProjetoSiteMVC2024
             services.AddDbContext<ProjetoSiteMVC2024Context>(options =>
                     options.UseMySql(Configuration.GetConnectionString("ProjetoSiteMVC2024Context"), builder =>
                     builder.MigrationsAssembly("ProjetoSiteMVC2024")));
+
+            services.AddScoped<ServicoPopular>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ServicoPopular servicoPopular)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                servicoPopular.Populado();
             }
             else
             {
